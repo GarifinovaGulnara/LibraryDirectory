@@ -15,16 +15,15 @@ namespace ClassLibrary
 
         public virtual void Display()
         {
-            Console.WriteLine($"");
         }
     }
 
     public class Book : StoreObject
     {
-        private string author;
-        private string illustrator;
-        private string publisher;
-        private DateTime year;
+        protected string author;
+        protected string illustrator;
+        protected string publisher;
+        protected DateTime year;
         public Book(string newName, string newFIO, string newAuthor, string newIllustrator, string newPublisher, DateTime newYear) : base(newName, newFIO)
         {
             author = newAuthor;
@@ -34,14 +33,13 @@ namespace ClassLibrary
         }
         public override void Display()
         {
-            Console.WriteLine($"Книга {name}, автор: {author}, иллюстратор: {illustrator}, издательство: {publisher}, {year} года выпуска. Владелец {fio}");
         }
     }
 
     public class Puzzle : StoreObject
     {
-        private int amountElements;
-        private string company;
+        protected int amountElements;
+        protected string company;
         public Puzzle(string newName, string newFIO, int newAmountElements, string newCompany) : base(newName, newFIO)
         {
             amountElements = newAmountElements;
@@ -49,15 +47,14 @@ namespace ClassLibrary
         }
         public override void Display()
         {
-            Console.WriteLine($"Пазл {name} от {company}, кол-во элементов: {amountElements}. Владелец {fio}");
         }
     }
 
     public class TableGame : StoreObject
     {
-        private string develop;
-        private string gameplay;
-        private string players;
+        protected string develop;
+        protected string gameplay;
+        protected string players;
         public TableGame(string newName, string newFIO, string newDevelop, string newGameplay, string newPlayers) : base(newName, newFIO)
         {
             develop = newDevelop;
@@ -66,7 +63,6 @@ namespace ClassLibrary
         }
         public override void Display()
         {
-            Console.WriteLine($"Настольная игра {name} от {develop}. Суть игры: {gameplay}. Для {players} игроков. Владелец {fio}");
         }
     }
 }

@@ -18,6 +18,20 @@ namespace CatalogLibraryApp
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    public partial class TaskWindow : Window
+    {
+        public string ViewModel { get; set; }
+
+        public TaskWindow()
+        {
+            //InitializeComponent();
+        }
+
+        public void ShowViewModel()
+        {
+            MessageBox.Show(ViewModel);
+        }
+    }
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -27,7 +41,7 @@ namespace CatalogLibraryApp
 
         private void Button_Click(object sender, RoutedEventArgs e) //Pazzle
         {
-            Window form2 = new Window();
+            var form2 = new Window1();
             form2.Show();
         }
 

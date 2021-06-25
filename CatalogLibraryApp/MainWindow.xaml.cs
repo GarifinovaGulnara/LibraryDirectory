@@ -41,14 +41,14 @@ namespace CatalogLibraryApp
 
         private void Button_Click(object sender, RoutedEventArgs e) //Pazzle
         {
-            var form2 = new Window1();
-            form2.Show();
+            var Pazzle = new Window1();
+            Pazzle.Show();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e) //TableGame
         {
-            Window form3 = new Window();
-            form3.Show();
+            Window TableGame = new Window();
+            TableGame.Show();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e) //Book

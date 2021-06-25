@@ -1,0 +1,23 @@
+﻿<Window x:Class="CatalogLibraryApp.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CatalogLibraryApp"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="19" Margin="216,55,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Название игры" HorizontalAlignment="Left" Height="29" Margin="28,50,0,0" VerticalAlignment="Top" Width="104"/>
+        <Label Content="Геймплей" HorizontalAlignment="Left" Height="24" Margin="28,94,0,0" VerticalAlignment="Top" Width="65"/>
+        <TextBox HorizontalAlignment="Left" Height="111" Margin="216,106,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="521"/>
+        <Label Content="Кол-во игроков" HorizontalAlignment="Left" Height="29" Margin="28,242,0,0" VerticalAlignment="Top" Width="98"/>
+        <TextBox HorizontalAlignment="Left" Height="19" Margin="216,247,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Владелец" HorizontalAlignment="Left" Height="27" Margin="28,303,0,0" VerticalAlignment="Top" Width="98"/>
+        <TextBox HorizontalAlignment="Left" Height="19" Margin="216,307,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="300"/>
+        <Button Content="Сохранить" HorizontalAlignment="Left" Height="35" Margin="647,345,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label Content="Дата создания записи" HorizontalAlignment="Left" Height="27" Margin="31,345,0,0" VerticalAlignment="Top" Width="138"/>
+        <TextBox HorizontalAlignment="Left" Height="19" Margin="216,353,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="184"/>
+
+    </Grid>
+</Window>
